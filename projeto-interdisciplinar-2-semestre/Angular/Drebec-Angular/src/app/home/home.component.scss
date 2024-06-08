@@ -1,0 +1,106 @@
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+    top: 30%;
+    color: white;
+}
+
+.slider-header{
+    animation-duration: 2s;
+    animation-name: slidein;
+    font-size: 50px;
+}
+
+@keyframes slidein{
+    from {
+        margin-top: 100%;
+      }
+    
+      to {
+        margin-top: 0%;
+      }
+}
+
+.carousel-inner{
+    height: 600px;    
+}
+
+.slider-header-1{
+    color: #426B1F;
+}
+
+.slider-header-1{
+    animation-duration: 2s;
+    animation-name: slidein;
+    font-size: 30px;
+}
+
+@media (min-width: 576px) {
+    .carousel-inner{
+        width: auto;
+        height: auto;
+    }
+    .carousel-caption{
+        display: flex;
+        justify-content: center;
+        top: 30%;
+        color: white;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .carousel-inner{
+        width: auto;
+        height: 500px;
+    }
+    .carousel-caption{
+        display: flex;
+        justify-content: center;
+        top: 30%;
+        color: white;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .carousel-inner{
+        width: auto;
+        height: auto;
+    }
+    .carousel-caption{
+        display: flex;
+        justify-content: center;
+        top: 30%;
+        color: white;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .carousel-inner{
+        width: auto;
+        height: auto;
+    }
+    .carousel-caption{
+        display: flex;
+        justify-content: center;
+        top: 40%;
+        color: white;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .carousel-inner{
+        width: auto;
+        height: auto;
+    }
+    .carousel-caption{
+        display: flex;
+        justify-content: center;
+        top: 30%;
+        color: white;
+    }
+
+}
