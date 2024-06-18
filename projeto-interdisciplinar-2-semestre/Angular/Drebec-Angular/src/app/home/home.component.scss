@@ -26,7 +26,7 @@
 }
 
 .slider-header-1{
-    color: #426B1F;
+    color: white;
 }
 
 .slider-header-1{
@@ -35,7 +35,7 @@
     font-size: 30px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
     .carousel-inner{
         width: auto;
         height: auto;
@@ -43,7 +43,7 @@
     .carousel-caption{
         display: flex;
         justify-content: center;
-        top: 30%;
+        top: 70%;
         color: white;
     }
 
@@ -104,3 +104,21 @@
     }
 
 }
+
+.example-container {
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+  }
+  
