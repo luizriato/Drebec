@@ -1,7 +1,7 @@
 @import '@angular/material/prebuilt-themes/purple-green.css';
 
   .example-card {
-    max-width: 400px;
+    max-width: 300px;
     background-color:   white;
     margin-bottom: 2rem;
     border: 2px solid rgb(255, 250, 250);
@@ -20,6 +20,8 @@
     text-align: center;
     font-size: 45px;
     color: #426B1F;
+    font-style: bold;
+    text-decoration: underline;
   }
 s
   .container-energias-calculadas{
@@ -53,4 +55,25 @@ s
 .custom-button:hover {
   background-color: #426B1F; /* Mudança de cor ao passar o mouse */
   color: #fff;
+}
+
+.mat-dialog-content {
+  background-color: #d06666; /* Altere para a cor que você deseja */
+}
+
+::ng-deep .mat-tooltip {
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 8px;
+  text-align: center;
+}
+
+.example-button {
+  margin-top: 16px;
+}
+
+.example-tooltip-uppercase {
+  text-transform: uppercase;
 }
